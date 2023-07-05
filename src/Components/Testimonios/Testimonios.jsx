@@ -9,7 +9,7 @@ function Testimonios() {
 
 
    function getTestimonios() {
-      fetch('../src/Components/apis/testimonios.json')
+      fetch('/src/Components/apis/testimonios.json')
          .then((res) => res.json())
          .then((data) => {
             setTestimonios(data)
