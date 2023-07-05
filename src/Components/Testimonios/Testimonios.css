@@ -1,0 +1,44 @@
+.testiTodo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #009167;
+    font-weight: 300;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testiTitulo{
+    font-weight: 100;
+    
+}
+
+.testimonioCarta{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.textoCarta{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 45px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: #000000;
+}
+
+.botonTesti{
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.botonTesti:hover{
+    background-color: #05ac7c;
+    border-radius: 45px;
+}
+
+.subidoChico{
+    color: #666;
+}

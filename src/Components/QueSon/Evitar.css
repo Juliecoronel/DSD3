@@ -1,0 +1,30 @@
+.Evitar{
+  height: 100vh;
+  width: 100%;
+  background-color: #375776;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+  .Como{
+    color: white;
+    padding:10% 0 0 0 ;
+    text-align: center;
+    border-bottom: 2px solid white;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+  .miDiv1{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+
+}
+ul{
+  list-style: none;
+}
+li{
+  margin-top: 7px;
+}

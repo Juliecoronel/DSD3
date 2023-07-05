@@ -1,0 +1,51 @@
+.denuncia-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #375776;
+    display: flex;
+    justify-content: center;
+}
+.denuncia-container form{
+    display: block;   
+    margin-top: 10%;
+}
+.denuncia-container form input{
+    width: 100%;
+    height: 45px;
+    border-radius: 34px;
+    margin-top: 15px;
+    border: 0;
+}
+.denuncia-container form textarea{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.denuncia-container form button{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #009167;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 48px;
+}
+.denuncia-container form button img{
+    width: 45px;
+}
+.respuesta{
+    color: #FFFFFF;
+    background-color: red;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
